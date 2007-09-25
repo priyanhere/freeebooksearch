@@ -1,0 +1,20 @@
+<SEARCH
+    version = "7.1"
+    name="Free eBooks"
+    description="Search for free ebooks at freebookzone.com"
+    method="GET"
+    action="http://www.freebookzone.com/lookup.php"
+    searchform="http://www.freebookzone.com"
+    updateCheckDays=7
+>
+
+<input name="book" user>
+<input name="sourceid" value="ff-engine">
+
+</SEARCH>
+
+<BROWSER
+      update="http://www.freebookzone.com/firefox/ebooksearch.src" 
+      updateIcon="http://www.freebookzone.com/firefox/ebooksearch.gif" 
+      updateCheckDays="7"
+>
