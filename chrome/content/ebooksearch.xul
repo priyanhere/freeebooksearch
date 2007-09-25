@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://ebooksearch/skin/freebookzone.css" type="text/css"?>
+
+<overlay id="ebooksearch" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/x-javascript" src="chrome://ebooksearch/content/ebooksearch.js" />
+
+<script type="application/x-javascript"><![CDATA[
+
+function bSearch(searchOption)
+{
+	var bookUrl = '';
+  var searchText = ebooksearchMain.sel();
+  var strUrl="http://www.freebookzone.com/lookup.php";
+  //alert(searchText);
+  if (searchText!="null")
+  { 
+    if (searchOption=="link") 
+    {
+      //alert("reverse lookup");
+      strUrl+="?" + bookUrl + searchOption + "=" + searchText + '&sourceid=ff-ext';
+    }
+    else
+      strUrl+="?" + bookUrl + searchOption + "=" + searchText + '&sourceid=ff-ext';
+  }
+  var browser = getBrowser();
+  if (ebooksearchMain.newtabPref())
+  {
+    var newTab = browser.addTab(strUrl);
+    browser.selectedTab = newTab;
+  }
+  else
+  {
+    window._content.document.location = strUrl;
+    window.content.focus();
+  }
+}
+
+window.bookSearch = bSearch;
+]]></script>
+
+
+<popup id="contentAreaContextMenu">
+	<menuseparator/>
+	<menu id="FreeBookZoneMenu" label="eBook Search" class="freebookzone">
+    <menupopup id="FreeBookZoneMenuPopup" class="menupopup">
+			<menuitem id="ISBN" label="ISBN" oncommand="bookSearch('isbn');"/>
+			<menuitem id="Author" label="Author" oncommand="bookSearch('author');"/>
+			<menuitem id="BookTitle" label="Book Title" oncommand="bookSearch('book');"/>
+      <menuitem id="Publisher" label="Publisher" oncommand="bookSearch('pub');"/>
+			<menuitem id="eBookFormat" label="eBook Format" oncommand="bookSearch('type');"/>
+      <menuitem id="BookDesc" label="Book Description" oncommand="bookSearch('details');"/>
+<!--  <menuitem id="Key" label="Keywords" oncommand="bookSearch('Key',content.window.getSelection());"/>
+-->
+      <menuitem id="Link" label="Reverse Lookup" oncommand="bookSearch('link');"/>
+<!--  <menuseparator/>
+			<menuitem id="EveryWhere" label="Search Every Where" oncommand="bookSearch('EveryWhere',content.window.getSelection());"/>
+-->
+		</menupopup>
+	</menu>
+</popup>
+
+</overlay>

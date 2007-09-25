@@ -1,0 +1,12 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+.freebookzone {
+  list-style-image: url("chrome://ebooksearch/skin/logoicon.gif");
+}
+
+.menupopup
+{
+background-image: url("chrome://ebooksearch/skin/logobg.gif");
+background-repeat: no-repeat;
+background-position: center;
+} 

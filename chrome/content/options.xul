@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<dialog buttons="accept,cancel"
+        id="ebook-options-dialog"
+	      onload="ebookoptions_init();"
+        ondialogaccept="return gebookOptions.saveOptions()"
+        title="eBook Search Options"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+<script type="application/x-javascript" src="chrome://ebooksearch/content/options.js"/>
+<dialogheader id="header" title="eBook Search!" description="version 2.0.1"/>
+<checkbox id="ebooksearch.newtab" label="Open results in new tab"/>
+<checkbox id="ebooksearch.prompt" label="Prompt for 'Search Query' if nothing is selected"/>
+</dialog>
