@@ -1,7 +1,8 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <?xml-stylesheet href="chrome://ebooksearch/skin/freebookzone.css" type="text/css"?>
 
+<!DOCTYPE overlay SYSTEM "chrome://ebooksearch/locale/ebooksearch.dtd" >
 <overlay id="ebooksearch" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
 <script type="application/x-javascript" src="chrome://ebooksearch/content/ebooksearch.js" />
@@ -43,17 +44,17 @@ window.bookSearch = bSearch;
 
 <popup id="contentAreaContextMenu">
 	<menuseparator/>
-	<menu id="FreeBookZoneMenu" label="eBook Search" class="freebookzone">
+	<menu id="FreeBookZoneMenu" label="&ebks.menu.ebook.search;" class="freebookzone">
     <menupopup id="FreeBookZoneMenuPopup" class="menupopup">
-			<menuitem id="ISBN" label="ISBN" oncommand="bookSearch('isbn');"/>
-			<menuitem id="Author" label="Author" oncommand="bookSearch('author');"/>
-			<menuitem id="BookTitle" label="Book Title" oncommand="bookSearch('book');"/>
-      <menuitem id="Publisher" label="Publisher" oncommand="bookSearch('pub');"/>
-			<menuitem id="eBookFormat" label="eBook Format" oncommand="bookSearch('type');"/>
-      <menuitem id="BookDesc" label="Book Description" oncommand="bookSearch('details');"/>
+			<menuitem id="ISBN" label="&ebks.menuitem.isbn;" oncommand="bookSearch('isbn');"/>
+			<menuitem id="Author" label="&ebks.menuitem.author;" oncommand="bookSearch('author');"/>
+			<menuitem id="BookTitle" label="&ebks.menuitem.book.title;" oncommand="bookSearch('book');"/>
+      <menuitem id="Publisher" label="&ebks.menuitem.publisher;" oncommand="bookSearch('pub');"/>
+			<menuitem id="eBookFormat" label="&ebks.menuitem.ebook.format;" oncommand="bookSearch('type');"/>
+      <menuitem id="BookDesc" label="&ebks.menuitem.book.description;" oncommand="bookSearch('details');"/>
 <!--  <menuitem id="Key" label="Keywords" oncommand="bookSearch('Key',content.window.getSelection());"/>
 -->
-      <menuitem id="Link" label="Reverse Lookup" oncommand="bookSearch('link');"/>
+      <menuitem id="Link" label="&ebks.menuitem.reverse.lookup;" oncommand="bookSearch('link');"/>
 <!--  <menuseparator/>
 			<menuitem id="EveryWhere" label="Search Every Where" oncommand="bookSearch('EveryWhere',content.window.getSelection());"/>
 -->

@@ -1,3 +1,6 @@
+var gebooksearchBundle = Components.classes["@mozilla.org/intl/stringbundle;1"].getService(Components.interfaces.nsIStringBundleService);
+var mystrings = gebooksearchBundle.createBundle("chrome://ebooksearch/locale/ebooksearch.properties");
+var ebksfreeebooks = mystrings.GetStringFromName("ebksfreeebooks");
 var ebooksearchMain = {
   
    newtabPref : function(){
@@ -177,7 +180,7 @@ var ebooksearchMain = {
      	     	menuitem.setAttribute("src", handler.getURLSpecFromFile(grpfile));
      	   else
      	        menuitem.setAttribute("src", "");
-     	   menuitem.setAttribute("label", "Free eBooks");
+     	   menuitem.setAttribute("label", ebksfreeebooks);
    	   if(!document.getElementById(id)){
      	     var child = menupopup.childNodes;
      	     if(child.length>0)
