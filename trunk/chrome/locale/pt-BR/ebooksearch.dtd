@@ -1,0 +1,8 @@
+<!ENTITY ebks.menu.ebook.search "Busca por eBooks">
+<!ENTITY ebks.menuitem.isbn "ISBN">
+<!ENTITY ebks.menuitem.author "Autor">
+<!ENTITY ebks.menuitem.book.title "Título do Livro">
+<!ENTITY ebks.menuitem.publisher "Publicador">
+<!ENTITY ebks.menuitem.ebook.format "Formato do ebook">
+<!ENTITY ebks.menuitem.book.description "Descrição do eBook">
+<!ENTITY ebks.menuitem.reverse.lookup "Consulta ao contrário">

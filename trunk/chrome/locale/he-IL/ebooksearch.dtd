@@ -1,0 +1,8 @@
+<!ENTITY ebks.menu.ebook.search "חיפוש ספר אלקטרוני">
+<!ENTITY ebks.menuitem.isbn "קוד ISBN">
+<!ENTITY ebks.menuitem.author "מחבר">
+<!ENTITY ebks.menuitem.book.title "כותרת הספר">
+<!ENTITY ebks.menuitem.publisher "הוצאה לאור">
+<!ENTITY ebks.menuitem.ebook.format "תצורת הספר">
+<!ENTITY ebks.menuitem.book.description "תיאור הספר">
+<!ENTITY ebks.menuitem.reverse.lookup "חיפוש הפוך">
