@@ -1,0 +1,8 @@
+<!ENTITY ebks.menu.ebook.search "eBook 搜索">
+<!ENTITY ebks.menuitem.isbn "ISBN">
+<!ENTITY ebks.menuitem.author "作者">
+<!ENTITY ebks.menuitem.book.title "书名">
+<!ENTITY ebks.menuitem.publisher "出版社">
+<!ENTITY ebks.menuitem.ebook.format "eBook 格式">
+<!ENTITY ebks.menuitem.book.description "书籍描述">
+<!ENTITY ebks.menuitem.reverse.lookup "反向查找">
