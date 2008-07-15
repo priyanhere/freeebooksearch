@@ -1,4 +1,5 @@
-<!ENTITY ebks.dialog.ebook.search.opti0 "Options de eBook Search ">
+<!ENTITY ebks.dialog.ebook.search.opti0 "Options de eBook Search">
 <!ENTITY ebks.dialogheader.ebook.search "Recherche d&apos;eBook !">
 <!ENTITY ebks.dialogheader.version "Version">
 <!ENTITY ebks.checkbox.open.results.in1 "Ouvrir les résultats dans un nouvel onglet">
+<!ENTITY ebks.options.promtquery "Demander une &apos;Requête de recherche&apos; si rien n&apos;est sélectionné">

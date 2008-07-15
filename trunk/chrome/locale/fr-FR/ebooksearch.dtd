@@ -3,5 +3,6 @@
 <!ENTITY ebks.menuitem.author "Auteur">
 <!ENTITY ebks.menuitem.book.title "Titre du livre">
 <!ENTITY ebks.menuitem.publisher "Éditeur">
-<!ENTITY ebks.menuitem.ebook.format "Format du eBook ">
+<!ENTITY ebks.menuitem.ebook.format "Format du eBook">
 <!ENTITY ebks.menuitem.book.description "Description du livre">
+<!ENTITY ebks.menuitem.gsearch "Recherche générale">
