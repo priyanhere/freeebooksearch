@@ -10,9 +10,9 @@
                     <em:locale>locale/fr-FR</em:locale>
                     <em:locale>locale/ml-IN</em:locale>
                     <em:locale>locale/es-ES</em:locale>
+                    <em:locale>locale/es-AR</em:locale>
                     <!--
                     <em:locale>locale/de-DE</em:locale>
-                    <em:locale>locale/es-ES</em:locale>
                     <em:locale>locale/gl-ES</em:locale>
                     <em:locale>locale/he-IL</em:locale>
                     <em:locale>locale/it-IT</em:locale>
