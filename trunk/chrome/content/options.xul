@@ -2,10 +2,15 @@
 <?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
 
 <!DOCTYPE dialog SYSTEM "chrome://ebooksearch/locale/options.dtd" >
-<dialog buttons="accept,cancel" id="ebook-options-dialog" onload="ebookoptions_init();" ondialogaccept="return gebookOptions.saveOptions()" title="&ebks.dialog.ebook.search.opti0;" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<dialog buttons="accept,cancel" 
+  id="ebook-options-dialog" 
+  onload="ebookoptions_init();" 
+  ondialogaccept="return gebookOptions.saveOptions()" 
+  title="&ebks.dialog.ebook.search.opti0;" 
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 	
 <script type="application/x-javascript" src="chrome://ebooksearch/content/options.js"/>
-<dialogheader id="header" title="&ebks.dialogheader.ebook.search;" description="&ebks.dialogheader.version;&#32;2.0.1"/>
+<dialogheader id="header" title="&ebks.dialogheader.ebook.search;" description="&ebks.dialogheader.version;&#32;3.0.0"/>
 <checkbox id="ebooksearch.newtab" label="&ebks.checkbox.open.results.in1;" />
 <checkbox id="ebooksearch.prompt" label="Prompt for 'Search Query' if nothing is selected"/>
 </dialog>

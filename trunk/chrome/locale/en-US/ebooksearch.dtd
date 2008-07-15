@@ -5,4 +5,5 @@
 <!ENTITY ebks.menuitem.publisher "Publisher">
 <!ENTITY ebks.menuitem.ebook.format "eBook Format">
 <!ENTITY ebks.menuitem.book.description "Book Description">
-<!ENTITY ebks.menuitem.reverse.lookup "Reverse Lookup">
+<!ENTITY ebks.menuitem.gsearch "General Search">
+

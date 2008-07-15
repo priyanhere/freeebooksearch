@@ -1,0 +1,9 @@
+How to release?
+
+1) Check in the Code
+2) Export working copy to new directory
+3) Compress chrome/* into chrome/ebooksearch.jar
+4) remove chrome/* except ebooksearch.jar
+5) remove chrome.manifest
+6) Remove me
+7) Compress ebooksearch into ebooksearch.xpi

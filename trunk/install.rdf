@@ -12,15 +12,14 @@
   <RDF:Description RDF:about="rdf:#$bUEq62"
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    em:minVersion="0.7"
-                   em:maxVersion="2.0.0.*" />
+                   em:maxVersion="3.0.*" />
   <RDF:Description RDF:about="urn:mozilla:install-manifest"
                    em:id="{7585C31E-1E94-4498-ACEC-CB913A05FC52}"
                    em:name="Free eBook Search"
-                   em:version="2.0.1"
+                   em:version="3.0.0"
                    em:description="Search with the highlighted text for your favourite *FREE* ebook in www.freebookzone.com"
                    em:creator="freebookzone.com"
                    em:homepageURL="http://www.freebookzone.com"
-                   em:updateURL="http://www.freebookzone.com/firefox/update.rdf"
                    em:optionsURL="chrome://ebooksearch/content/options.xul"
                    em:aboutURL="chrome://ebooksearch/content/about.xul"
                    em:iconURL="chrome://ebooksearch/skin/logo.gif"
