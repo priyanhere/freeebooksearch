@@ -1,0 +1,11 @@
+
+overlay	chrome://browser/content/browser.xul	chrome://ebooksearch/content/ebooksearch.xul
+content	ebooksearch	chrome/content/
+
+skin	ebooksearch	classic/1.0	chrome/skin/
+
+locale	ebooksearch	en-US	chrome/locale/en-US/
+
+locale	ebooksearch	fr-FR	chrome/locale/fr-FR/
+
+locale	ebooksearch	it-IT	chrome/locale/it-IT/

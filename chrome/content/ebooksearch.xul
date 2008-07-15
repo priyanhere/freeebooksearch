@@ -17,13 +17,14 @@ function bSearch(searchOption)
   //alert(searchText);
   if (searchText!="null")
   { 
-    if (searchOption=="link") 
+    if (searchOption=="gsearch") 
     {
-      //alert("reverse lookup");
-      strUrl+="?" + bookUrl + searchOption + "=" + searchText + '&sourceid=ff-ext';
+      strUrl="http://www.freebookzone.com/search.php?q=" + searchText + "&sourceid=ff-ext&cx=partner-pub-6520778924988756:w2adc05ha6v&cof=FORID:10&ie=ISO-8859-1&sa=Search#204";
     }
     else
+    {
       strUrl+="?" + bookUrl + searchOption + "=" + searchText + '&sourceid=ff-ext';
+    }
   }
   var browser = getBrowser();
   if (ebooksearchMain.newtabPref())
@@ -46,6 +47,8 @@ window.bookSearch = bSearch;
 	<menuseparator/>
 	<menu id="FreeBookZoneMenu" label="&ebks.menu.ebook.search;" class="freebookzone">
     <menupopup id="FreeBookZoneMenuPopup" class="menupopup">
+      <menuitem id="GeneralSearch" label="&ebks.menuitem.gsearch;" oncommand="bookSearch('gsearch');"/>
+      <menuseparator/>
 			<menuitem id="ISBN" label="&ebks.menuitem.isbn;" oncommand="bookSearch('isbn');"/>
 			<menuitem id="Author" label="&ebks.menuitem.author;" oncommand="bookSearch('author');"/>
 			<menuitem id="BookTitle" label="&ebks.menuitem.book.title;" oncommand="bookSearch('book');"/>
@@ -53,9 +56,8 @@ window.bookSearch = bSearch;
 			<menuitem id="eBookFormat" label="&ebks.menuitem.ebook.format;" oncommand="bookSearch('type');"/>
       <menuitem id="BookDesc" label="&ebks.menuitem.book.description;" oncommand="bookSearch('details');"/>
 <!--  <menuitem id="Key" label="Keywords" oncommand="bookSearch('Key',content.window.getSelection());"/>
--->
       <menuitem id="Link" label="&ebks.menuitem.reverse.lookup;" oncommand="bookSearch('link');"/>
-<!--  <menuseparator/>
+      <menuseparator/>
 			<menuitem id="EveryWhere" label="Search Every Where" oncommand="bookSearch('EveryWhere',content.window.getSelection());"/>
 -->
 		</menupopup>
