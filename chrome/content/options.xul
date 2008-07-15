@@ -12,5 +12,5 @@
 <script type="application/x-javascript" src="chrome://ebooksearch/content/options.js"/>
 <dialogheader id="header" title="&ebks.dialogheader.ebook.search;" description="&ebks.dialogheader.version;&#32;3.0.0"/>
 <checkbox id="ebooksearch.newtab" label="&ebks.checkbox.open.results.in1;" />
-<checkbox id="ebooksearch.prompt" label="Prompt for 'Search Query' if nothing is selected"/>
+<checkbox id="ebooksearch.prompt" label="&ebks.options.promtquery;"/>
 </dialog>

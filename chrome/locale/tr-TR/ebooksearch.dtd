@@ -1,0 +1,8 @@
+<!ENTITY ebks.menu.ebook.search "eKitap Arama">
+<!ENTITY ebks.menuitem.isbn "ISBN">
+<!ENTITY ebks.menuitem.author "Yazar">
+<!ENTITY ebks.menuitem.book.title "Kitap Başlığı">
+<!ENTITY ebks.menuitem.publisher "Yayıncı">
+<!ENTITY ebks.menuitem.ebook.format "eKitap Formatı">
+<!ENTITY ebks.menuitem.book.description "Kitap Tanımı">
+<!ENTITY ebks.menuitem.gsearch "">
