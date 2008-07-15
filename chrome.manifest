@@ -8,4 +8,6 @@ locale	ebooksearch	en-US	chrome/locale/en-US/
 
 locale	ebooksearch	fr-FR	chrome/locale/fr-FR/
 
-locale	ebooksearch	it-IT	chrome/locale/it-IT/
+locale	ebooksearch	es-AR	chrome/locale/es-AR/
+
+locale	ebooksearch	ml-IN	chrome/locale/ml-IN/
