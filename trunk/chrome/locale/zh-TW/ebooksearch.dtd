@@ -1,0 +1,8 @@
+<!ENTITY ebks.menu.ebook.search "eBook Search">
+<!ENTITY ebks.menuitem.isbn "ISBN">
+<!ENTITY ebks.menuitem.author "作者">
+<!ENTITY ebks.menuitem.book.title "書名">
+<!ENTITY ebks.menuitem.publisher "出版商">
+<!ENTITY ebks.menuitem.ebook.format "eBook 格式">
+<!ENTITY ebks.menuitem.book.description "書本簡介">
+<!ENTITY ebks.menuitem.gsearch "標準搜尋">

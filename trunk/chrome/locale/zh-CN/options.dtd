@@ -2,3 +2,4 @@
 <!ENTITY ebks.dialogheader.ebook.search "eBook 搜索！">
 <!ENTITY ebks.dialogheader.version "版本">
 <!ENTITY ebks.checkbox.open.results.in1 "在新标签中打开结果">
+<!ENTITY ebks.options.promtquery "在&apos;搜索查询’中，如果什么都没选中就提示">
