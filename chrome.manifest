@@ -13,3 +13,7 @@ locale	ebooksearch	es-AR	chrome/locale/es-AR/
 locale	ebooksearch	ml-IN	chrome/locale/ml-IN/
 
 locale	ebooksearch	es-ES	chrome/locale/es-ES/
+
+locale	ebooksearch	zh-CN	chrome/locale/zh-CN/
+
+locale	ebooksearch	zh-TW	chrome/locale/zh-TW/

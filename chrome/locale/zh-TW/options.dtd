@@ -1,0 +1,5 @@
+<!ENTITY ebks.dialog.ebook.search.opti0 "eBook Search 選項">
+<!ENTITY ebks.dialogheader.ebook.search "eBook Search!">
+<!ENTITY ebks.dialogheader.version "版本">
+<!ENTITY ebks.checkbox.open.results.in1 "在新分頁開啟搜尋結果">
+<!ENTITY ebks.options.promtquery "當沒有選擇任何設定時，提示輸入&quot;搜尋字串&quot;">
